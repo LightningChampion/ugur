@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Uğur Mermer</title>
+
+  <link rel="stylesheet" href="styles.css?v=5">
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Anasayfa</a></li>
+      <li><a href="about.html">Hakkımızda</a></li>
+      <li><a href="services.html">Hizmetlerimiz</a></li>
+      <li><a href="gallery.html">Galeri</a></li>
+      <li><a href="contact.html">İletişim</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+
+    <section class="about">
+
+      <div class="about-text">
+        <h1>Uğur Mermer</h1>
+        <p class="tagline">Ustalık. Kalite. Güven.</p>
+
+        <h2>Hakkımızda</h2>
+        <p>
+          İstanbul Karacaahmet'te bulunan işletmemiz, 1969 yılından beri siz değerli
+          müşterilerimize hizmet vermektedir. Deneyimli ve usta personelimizle;
+          mermer, granit ve ihtiyacınız olan tüm mezar işlerini el işçiliği kullanarak
+          son teknoloji ekipmanlar yardımıyla yapmaktayız.
+          <br><br>
+          Yılların verdiği tecrübe ile her bir çalışmamızda kalite, dayanıklılık ve
+          estetiği ön planda tutuyor; sevdiklerinizin hatırasına yakışır işler
+          ortaya koyuyoruz.
+          <br><br>
+          Müşteri memnuniyetini temel ilke edinen firmamız, şeffaf ve güvenilir
+          hizmet anlayışıyla çalışmaktadır.
+        </p>
+      </div>
+
+      <div class="about-image">
+        <img src="images/profile.jpg" alt="Uğur Mermer">
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <h3>İletişim</h3>
+
+      <p>📞 <a href="tel:02163100583">0216 310 05 83</a></p>
+      <p>📱 <a href="tel:+905426952150">+90 542 695 21 50</a></p>
+      <p>💬 <a href="https://wa.me/905426952150" target="_blank">WhatsApp ile iletişime geç</a></p>
+
+      <p class="location">
+        📍 <a href="https://maps.app.goo.gl/UQtLZf7PX6sbDAzT6" target="_blank">
+          Konumumuzu Görüntüle
+        </a>
+      </p>
+
+      <p class="copyright">
+        © 1969 – <span id="year"></span> Uğur Mermer
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
